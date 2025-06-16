@@ -1,4 +1,4 @@
-% Orifice equation for design of pressurized smoke control system
+% Orifice equation for design of pressurized smoke control systems.
 % Equation 3.4 in Handbook of Smoke Control Engineering (2nd ed.)
 % Klote, J. H., Milke, J. A., Turnbull, P. G., Kashef, A., Phillips, D. A., & Ferreira, M. J. (2024). Handbook of Smoke Control Engineering (2nd ed.). ASHRAE.
 
