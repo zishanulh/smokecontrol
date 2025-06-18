@@ -8,7 +8,11 @@
 % Klote, J. H., Milke, J. A., Turnbull, P. G., Kashef, A., Phillips, D. A., & Ferreira, M. J. (2024). Handbook of Smoke Control Engineering (2nd ed.). ASHRAE.
 
 % Function: Calculates mass flow rate
-% m [lb/s], C [], A [ft^2], rho [lb/ft^3], delP [in. H2O]
+% m     = mass flow rate through the path, [lb/s] 
+% C     = flow coefficient, []
+% A     = flow area (or leakage area) [ft^2]
+% rho   = gas density in flow path [lb/ft^3]
+% delP  = pressure difference accross the path [in. H2O]
 
 function    m = MassFlow(C,A,rho,delP)
 
