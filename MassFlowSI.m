@@ -9,7 +9,13 @@
 
 
 % Function: Calculates mass flow rate - SI
-% m [kg/s], C [], A [m^2], rho [kg/m^3], delP [Pa]
+
+% m     = mass flow rate through the path, [kg/s] 
+% C     = flow coefficient, []
+% A     = flow area (or leakage area) [m^2]
+% rho   = gas density in flow path [kg/m^3]
+% delP  = pressure difference accross the path [Pa]
+
 function    m = MassFlowSI(C,A,rho,delP)
 
     m = C*A*((2*rho*delP)^0.5);
