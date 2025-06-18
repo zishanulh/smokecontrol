@@ -9,7 +9,13 @@
 
 
 % Function: Calculates Volume flow rate 
-% v [cfm], C [], A [ft^2], rho [lb/ft^3], delP [in. H2O]
+% m     = volummetric flow rate through the path, [cfm] 
+% C     = flow coefficient, []
+% A     = flow area (or leakage area) [ft^2]
+% rho   = gas density in flow path [lb/ft^3]
+% delP  = pressure difference accross the path [in. H2O]
+
+
 function    v = VolumeFlow(C,A,rho,delP)
 
     v = 776*C*A*((2*delP/rho)^0.5);
