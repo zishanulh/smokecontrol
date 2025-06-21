@@ -10,7 +10,7 @@
 
 % Function: Calculates Density
 % rho [lb/ft^3], p [psi], T [°R], R=53.34 ft*lbf*lbm/R
-function    rho = density(p,T)
+function    rho = Density(p,T)
 
     rho = (144*p)/(53.34*T);
 
